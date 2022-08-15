@@ -60,6 +60,10 @@ Run a basic test suite for CouchDB by browsing here:
 Getting started with developing
 -------------------------------
 
+### Quickstart
+
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)
+
 For more detail, read the README-DEV.rst file in this directory.
 
 Basically you just have to install the needed dependencies which are
