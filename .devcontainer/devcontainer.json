@@ -23,6 +23,7 @@
     // Your code will live inside the volume created for the container under /workspace.
     "workspaceMount": "target=/workspaces/couchdb,type=volume",
     "workspaceFolder": "/workspaces/couchdb",
+    "postCreateCommand": "./configure && make",
 
     "extensions": ["erlang-ls.erlang-ls"]
 }
