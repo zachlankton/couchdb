@@ -70,6 +70,8 @@ If you already have VS Code and Docker installed, you can click the badge above 
 `here <https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/apache/couchdb>`_ 
 to get started. Clicking these links will cause VS Code to automatically install the Remote - Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
 
+This ``devcontainer`` will automatically run ``./configure && make`` the first time it is created.  While this may take some extra time to spin up, this tradeoff means you will be able to run things like ``./dev/run`` and ``make check`` straight away.  Subsequent startups should be quick.
+
 
 **Manual Dev Setup:**
 
