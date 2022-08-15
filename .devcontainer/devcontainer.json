@@ -23,7 +23,6 @@
     // Your code will live inside the volume created for the container under /workspace.
     "workspaceMount": "target=/workspace,type=volume",
     "workspaceFolder": "/workspace",
-    "postCreateCommand": "echo 'Dev Container is Ready! \n Run \"./configure && make\" to build the dev project' "
 
     "extensions": ["erlang-ls.erlang-ls"]
 }
