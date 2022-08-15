@@ -6,9 +6,9 @@ ENV SM_VSN=78
 
 USER root
 
-RUN mkdir /workspace
+RUN mkdir -p /workspaces/couchdb
 
-WORKDIR /workspace
+WORKDIR /workspaces/couchdb
 
 COPY . .
 
