@@ -11,3 +11,5 @@ RUN mkdir /workspace
 WORKDIR /workspace
 
 COPY . .
+
+RUN ./configure && make
