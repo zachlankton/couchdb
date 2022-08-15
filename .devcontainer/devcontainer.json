@@ -12,7 +12,6 @@
             "IMG": "apache/couchdbci-debian:bullseye-erlang-25.0.2"
         }
     },
-    "runArgs": ["--name=couchdb-dev"],
 
     // We are using a volume mount to improve performance
     // https://code.visualstudio.com/remote/advancedcontainers/improve-performance#_use-a-named-volume-for-your-entire-source-tree
@@ -22,7 +21,7 @@
     //
     // Your code will not be bound to the host OS folder you started this project from.
     // Your code will live inside the volume created for the container under /workspace.
-    "workspaceMount": "source=couchdb-dev-volume,target=/workspace,type=volume",
+    "workspaceMount": "target=/workspace,type=volume",
     "workspaceFolder": "/workspace",
 
     "extensions": ["erlang-ls.erlang-ls"]

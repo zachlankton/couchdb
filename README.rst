@@ -60,10 +60,10 @@ Run a basic test suite for CouchDB by browsing here:
 Getting started with developing
 -------------------------------
 
-Quickstart:
+**Quickstart:**
 
 .. image:: https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode
-    :target: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/apache/couchdb
+    :target: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/zachlankton/couchdb
 
 For more detail, read the README-DEV.rst file in this directory.
 
