@@ -21,8 +21,8 @@
     //
     // Your code will not be bound to the host OS folder you started this project from.
     // Your code will live inside the volume created for the container under /workspace.
-    "workspaceMount": "target=/workspace,type=volume",
-    "workspaceFolder": "/workspace",
+    "workspaceMount": "target=/workspaces/couchdb,type=volume",
+    "workspaceFolder": "/workspaces/couchdb",
 
     "extensions": ["erlang-ls.erlang-ls"]
 }
